@@ -30,8 +30,8 @@ def count_phrase_for_legislator(phrase,
         phrase=phrase,  # this word
         start_date=start_date,
         end_date=end_date,
-        # sort="count",   # sorted by how much they say
-        sort="legislator",   # sorted by who said it
+        sort="count",   # sorted by how much they say
+        # sort="legislator",   # sorted by who said it
     )[:]:
 
         legislator = congress.legislators(
@@ -42,16 +42,16 @@ def count_phrase_for_legislator(phrase,
 
         if len(legislator) >= 1:  # If we were able to find the legislator
             legislator = legislator[0]  # (this is a search, so it's a list)
-            # if cw_record['legislator'] == legislator_id:
-            print("{0}. {1} said {2} {3} times".format(
-                    legislator['title'],
-                    legislator['last_name'],
-                    phrase,
-                    int(cw_record['count']))
-                    )
-                # return (legislator['title'] + ' ' +
-                #         legislator['last_name'],
-                #      int(cw_record['count']))
+            if cw_record['legislator'] == legislator_id:
+            # print("{0}. {1} said {2} {3} times".format(
+            #         legislator['title'],
+            #         legislator['last_name'],
+            #         phrase,
+            #         int(cw_record['count']))
+            #         )
+                return (legislator['title'] + ' ' +
+                        legislator['last_name'],
+                     int(cw_record['count']))
         # return (legislator['title'] +
         #    ' ' +legislator['last_name'],
         #      int(cw_record['count']))
