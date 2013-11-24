@@ -1,3 +1,9 @@
+say what
+========
+
+Say What was a project started at the New York Times Developers Hack Day
+on Nov 16, 2013.
+
 sunlight-foundation
 ===================
 
@@ -5,14 +11,15 @@ Goal; Compute the complexity of each bill in congress. As a first crack, measure
 There is  not an easily-recognizable grammar to recognize legal citations inline, but a few common words will suffice for startsers;
 "United States Code", "Federal Register", U.S.C., "Public Law", "Private Law"
 
+setup
+=====
 
+First make sure you have Pip installed and run `pip install -r requirements.txt`.
 
-nytimeshackday2013
-==================
+Next run `db_setup.py`.
 
-NYT Developers Hack Day 2013-11-16
-
-To use this you need a `login.py` file that looks like this:
+Finally you need to obtain keys for the APIs and set them up in `login.py` (does
+not exist by default):
 
 ```
 keys = {
