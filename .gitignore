@@ -38,3 +38,4 @@ login.py
 bill_text/*.txt
 bills.csv
 output.txt
+*.py.swp
