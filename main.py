@@ -25,9 +25,7 @@ def main():
             #print('{0}: sponsored by {1}'.format(number, sponsor))
             for p in phrases:
                     n, c = count_phrase_for_legislator(p, sponsor, check_date, TODAY)
-                    if n not in ['Rep Gohmert', 'Sen Cruz', 'Sen Sessions', 'Rep Bachmann',
-                                 'Rep King']:
-                        print('{0}: {1} mentioned {2} {3} times'.format(number, n, p, str(c)))
+                    print('{0}: {1} mentioned {2} {3} times'.format(number, n, p, str(c)))
             print('\n')
 
 
