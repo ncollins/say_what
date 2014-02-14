@@ -39,3 +39,9 @@ keys = {
 
 You can get a key from [developer.nytimes.com/register](developer.nytimes.com/register)
 and [http://sunlightfoundation.com/api/](http://sunlightfoundation.com/api/).
+
+
+Related Academia
+================
+The Annual International Conference on Digital Government Research.
+http://dgsociety.org/
