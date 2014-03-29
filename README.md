@@ -4,6 +4,13 @@ say what
 Say What was a project started at the New York Times Developers Hack Day
 on Nov 16, 2013.
 
+These are metrics we think will be edifying (work-in-progress)
+
+<b>Content of bills</b>: how much of bill content is legal jargon or fluff vs. real information? what are the effects of lobbyist influence? what’s the correlation of content to what politicians are actually discussing in the public record?
+<br /><b>Complexity of bills’ content</b>: how complicated are bills based on cross-reference to other bills and overall lengths of bills?
+<br /><b>Timing for the bills being passed</b>: has a bill been rushed without enough time to be read by the legislators nor the public?  has a bill been going through innumerable amounts of revisions?
+<br /><b>Kick-the-can</b>: how many funding bills are merely continuing resolutions, in place of actually working out a budget solution bill?
+
 sunlight-foundation
 ===================
 
@@ -32,3 +39,9 @@ keys = {
 
 You can get a key from [developer.nytimes.com/register](developer.nytimes.com/register)
 and [http://sunlightfoundation.com/api/](http://sunlightfoundation.com/api/).
+
+
+Related Academia
+================
+The Annual International Conference on Digital Government Research.
+http://dgsociety.org/
