@@ -1,4 +1,12 @@
+# GitIgnore file specifies folders and files to ignore during commit.
+
 *.py[cod]
+
+# Pycharm, Intellij folder
+.idea
+
+# Mac only 
+.DS_Store
 
 # C extensions
 *.so
